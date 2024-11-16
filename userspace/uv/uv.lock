@@ -18,7 +18,7 @@ dependencies = [
 requires-dist = [
     { name = "dbus-python" },
     { name = "evdev" },
-    { name = "ipython" },
+    { name = "ipython", specifier = "==8.22.0" },
     { name = "openpilot", directory = "openpilot" },
     { name = "openpilot", extras = ["dev"], directory = "openpilot" },
     { name = "openpilot", extras = ["testing"], directory = "openpilot" },
@@ -798,7 +798,7 @@ wheels = [
 
 [[package]]
 name = "ipython"
-version = "8.29.0"
+version = "8.22.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
@@ -810,11 +810,10 @@ dependencies = [
     { name = "pygments" },
     { name = "stack-data" },
     { name = "traitlets" },
-    { name = "typing-extensions", marker = "python_full_version < '3.12'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/85/e0/a3f36dde97e12121106807d80485423ae4c5b27ce60d40d4ab0bab18a9db/ipython-8.29.0.tar.gz", hash = "sha256:40b60e15b22591450eef73e40a027cf77bd652e757523eebc5bd7c7c498290eb", size = 5497513 }
+sdist = { url = "https://files.pythonhosted.org/packages/d7/c6/8bec4b09c6cdaa8eecf73a07ce1dc3fc92c21e4f07764a7c8d66f874d4a4/ipython-8.22.0.tar.gz", hash = "sha256:bc649987e35a75ecccab7a245d7403710e3a289384c268d6d846ab8933ca0811", size = 5490398 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c5/a5/c15ed187f1b3fac445bb42a2dedd8dec1eee1718b35129242049a13a962f/ipython-8.29.0-py3-none-any.whl", hash = "sha256:0188a1bd83267192123ccea7f4a8ed0a78910535dbaa3f37671dca76ebd429c8", size = 819911 },
+    { url = "https://files.pythonhosted.org/packages/06/96/8e836e2144d294fe2db06b0529c30f723d8b3c0d75a4834309a03a00d9dd/ipython-8.22.0-py3-none-any.whl", hash = "sha256:a3e962e1d42927f5825dab048f4de617f5856cf3272fff1cb9245bea0c785a46", size = 811950 },
 ]
 
 [[package]]

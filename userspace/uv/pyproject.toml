@@ -20,7 +20,7 @@ dependencies = [
   "pyopencl == 2024.1",  # pinned until cmake update coming with 24.04
 
   # extra nice-to-haves
-  "ipython",
+  "ipython==8.22.0",
 ]
 
 [tool.uv.sources]
